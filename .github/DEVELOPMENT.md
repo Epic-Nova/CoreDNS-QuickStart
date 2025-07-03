@@ -2,8 +2,9 @@
 
 Welcome to the **CoreDNS-QuickStart Development Guide!** This document will walk you through setting up your development environment to work with CoreDNS-QuickStart.
 
+> [!IMPORTANT]
 > 🧠 **Before You Begin:**  
-> Make sure to read the [README.md](../README.md) for an overview of the project and contribution guidelines.
+> Make sure to read the [README.md](https://github.com/Epic-Nova/CoreDNS-QuickStart/blob/master/README.md) for an overview of the project and contribution guidelines.
 
 --- 
 ## 🚀 Getting Started with CoreDNS

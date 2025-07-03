@@ -284,7 +284,7 @@ create_systemd_service() {
     cat > "$SERVICE_FILE" << EOF
 [Unit]
 Description=CoreDNS Zone File Watcher
-Documentation=https://github.com/example-org/nameserver-setup
+Documentation=https://github.com/Epic-Nova/CoreDNS-QuickStart/
 After=network.target
 Wants=network.target
 
