@@ -305,5 +305,5 @@ For detailed Kubernetes integration, refer to the [CoreDNS Kubernetes plugin doc
 ---
 
 <div align="center">
-  <p>Still have questions? <a href="https://github.com/Epic-Nova/CoreDNS-QuickStart/issues/new?template=question.md">Open an issue</a> and we'll help you out!</p>
+  <p>Still have questions? <a href="https://github.com/Epic-Nova/CoreDNS-QuickStart/issues/new?template=question.yml">Open an issue</a> and we'll help you out!</p>
 </div>

@@ -30,14 +30,14 @@ All types of contributions are encouraged and valued. See the [Table of Contents
 ## ❓ I Have a Question
 
 > [!NOTE]
-> If you want to ask a question, we assume that you have read the available [Documentation](https://c.docs.gt.simsalabim.studio/).
+> If you want to ask a question, we assume that you have read the available [Documentation](https://coredns.io/manual/toc/).
 
-Before you ask a question, it is best to search for existing [Issues](https://github.com/Epic-Nova/Gorgeous-Core/issues) that might help you. In case you have found a suitable issue and still need clarification, you can write your question in this issue. It is also advisable to search the internet for answers first.
+Before you ask a question, it is best to search for existing [Issues](https://github.com/Epic-Nova/CoreDNS-QuickStart/issues) that might help you. In case you have found a suitable issue and still need clarification, you can write your question in this issue. It is also advisable to search the internet for answers first.
 
 If you then still feel the need to ask a question and need clarification, we recommend the following:
 
-- Read the [FAQ.md](https://github.com/Epic-Nova/Gorgeous-Core/blob/master/.github/FAQ.md)
-- Open an [Question Issue](https://github.com/Epic-Nova/Gorgeous-Core/issues/new?template=question.md).
+- Read the [FAQ.md](https://github.com/Epic-Nova/CoreDNS-QuickStart/blob/master/.github/FAQ.md)
+- Open an [Question Issue](https://github.com/Epic-Nova/CoreDNS-QuickStart/issues/new?template=question.yml).
 - Write an email to [support@epicnova.net](mailto:support@epicnova.net)
 
 We will then take care of the issue as soon as possible.
@@ -56,8 +56,8 @@ We will then take care of the issue as soon as possible.
 A good bug report shouldn't leave others needing to chase you up for more information. Therefore, we ask you to investigate carefully, collect information and describe the issue in detail in your report. Please complete the following steps in advance to help us fix any potential bug as fast as possible.
 
 - ✅ **Make sure that you are using the latest version.**
-- 🤔 **Determine if your bug is really a bug** and not an error on your side, e.g., using incompatible environment components/versions. (Make sure that you have read the [documentation](https://c.docs.gt.simsalabim.studio/). If you are looking for support, you might want to check [this section](#-i-have-a-question)).
-- 🔍 **Check the [bug tracker](https://github.com/orgs/Epic-Nova/projects/12/views/5)** to see if a bug report already exists for your bug or error.
+- 🤔 **Determine if your bug is really a bug** and not an error on your side, e.g., using incompatible environment components/versions. (Make sure that you have read the [documentation](https://coredns.io/manual/toc/). If you are looking for support, you might want to check [this section](#-i-have-a-question)).
+- 🔍 **Check the [bug tracker](https://github.com/Epic-Nova/CoreDNS-QuickStart/issues)** to see if a bug report already exists for your bug or error.
 - 🌐 **Search the internet** (including Stack Overflow) to see if users outside of the GitHub community have discussed the issue.
 - Gather information about the bug:
     - 📜 **Stack trace (Traceback)**
@@ -73,9 +73,9 @@ A good bug report shouldn't leave others needing to chase you up for more inform
 
 We use GitHub issues to track bugs and errors. If you run into an issue with the project:
 
-- 🐛 **Open an [Issue](https://github.com/Epic-Nova/Gorgeous-Core/issues/new?template=bug_report.md).**
+- 🐛 **Open an [Issue](https://github.com/Epic-Nova/CoreDNS-QuickStart/issues/new?template=bug_report.yml).**
 - ✍️ **Explain the behavior you would expect and the actual behavior.**
-- ⚙️ **Please provide as much context as possible** and describe the ***reproduction steps*** that someone else can follow to recreate the issue on their own. This usually includes your code. If the code that you are experiencing issues with is Blueprint, then copy your script code and paste it in [BlueprintUE](https://blueprintue.com/) and share the link in the issue. For good bug reports, you should isolate the problem and create a reduced test case.
+- ⚙️ **Please provide as much context as possible** and describe the ***reproduction steps*** that someone else can follow to recreate the issue on their own. This usually includes your code. For good bug reports, you should isolate the problem and create a reduced test case.
 - ℹ️ **Provide the information you collected in the previous section.**
 
 Once it's filed:
@@ -97,7 +97,7 @@ To report a security vulnerability, please send an email to: [**vulnerabilities@
 
 To ensure the confidentiality of your report, we strongly encourage you to encrypt your communication using our PGP public key. You can find the public key here:
 
-[🔗 **PGP Public Key**](https://github.com/Epic-Nova/Gorgeous-Core/blob/master/.github/SensitiveReportingPublicKey.asc)
+[🔗 **PGP Public Key**](https://github.com/Epic-Nova/CoreDNS-QuickStart/blob/master/.github/SensitiveReportingPublicKey.asc)
 
 By encrypting your report, you can help protect sensitive information during transmission. We appreciate your cooperation in handling security matters responsibly. Our team will acknowledge your report promptly and work diligently to address the issue.
 
@@ -110,13 +110,13 @@ This section guides you through submitting an enhancement suggestion for CoreDNS
 #### 🤔 Before Submitting an Enhancement
 
 - ✅ **Make sure that you are using the latest version.**
-- 📖 **Read the [documentation](https://c.docs.gt.simsalabim.studio/) carefully** and find out if the functionality is already covered, maybe by an individual configuration.
-- 🔍 **Perform a [search](https://github.com/orgs/Epic-Nova/projects/12/views/4)** to see if the enhancement has already been suggested. If it has, add a comment to the existing issue instead of opening a new one.
+- 📖 **Read the [documentation](https://coredns.io/manual/toc/) carefully** and find out if the functionality is already covered, maybe by an individual configuration.
+- 🔍 **Perform a [search](https://github.com/Epic-Nova/CoreDNS-QuickStart/issues)** to see if the enhancement has already been suggested. If it has, add a comment to the existing issue instead of opening a new one.
 - 💡 **Find out whether your idea fits with the scope and aims of the project.** It's up to you to make a strong case to convince the project's developers of the merits of this feature. Keep in mind that we want features that will be useful to the majority of our users and not just a small subset.
 
 #### 📝 How Do I Submit a Good Enhancement Suggestion?
 
-Enhancement suggestions are tracked as [Feature issues](https://github.com/Epic-Nova/Gorgeous-Core/issues/new?template=feature_request.md).
+Enhancement suggestions are tracked as [Feature issues](https://github.com/Epic-Nova/CoreDNS-QuickStart/issues/new?template=feature_request.yml).
 
 - 🏷️ **Use a clear and descriptive title** for the issue to identify the suggestion.
 - 📝 **Provide a step-by-step description of the suggested enhancement** in as many details as possible.
@@ -130,14 +130,14 @@ Enhancement suggestions are tracked as [Feature issues](https://github.com/Epic-
 
 We appreciate your interest in contributing code to CoreDNS-QuickStart! Here's a quick guide to get you started:
 
-1.  **Fork the Repository:** Click the "Fork" button at the top right of the [GitHub repository](https://github.com/Epic-Nova/Gorgeous-Core). This creates a copy of the project under your GitHub account.
+1.  **Fork the Repository:** Click the "Fork" button at the top right of the [GitHub repository](https://github.com/Epic-Nova/CoreDNS-QuickStart). This creates a copy of the project under your GitHub account.
 2.  **Clone Your Fork:** Clone the forked repository to your local machine using Git:
     ```bash
-    git clone https://github.com/YOUR_USERNAME/Gorgeous-Core.git
-    cd Gorgeous-Core
+    git clone https://github.com/YOUR_USERNAME/CoreDNS-QuickStart.git
+    cd CoreDNS-QuickStart
     ```
     Replace `YOUR_USERNAME` with your GitHub username.
-3.  **Set Up Your Development Environment:** Follow the instructions in the project's main [`README.md`](https://github.com/Epic-Nova/Gorgeous-Core/blob/master/README.md) or a dedicated [`DEVELOPMENT.md`](https://github.com/Epic-Nova/Gorgeous-Core/blob/master/.github/DEVELOPMENT.md) file (if it exists) to set up your development environment. This might include installing dependencies, configuring your IDE, and setting up any necessary SDKs.
+3.  **Set Up Your Development Environment:** Follow the instructions in the project's main [`README.md`](https://github.com/Epic-Nova/CoreDNS-QuickStart/blob/master/README.md) or a dedicated [`DEVELOPMENT.md`](https://github.com/Epic-Nova/CoreDNS-QuickStart/blob/master/.github/DEVELOPMENT.md) file (if it exists) to set up your development environment. This might include installing dependencies, configuring your IDE, and setting up any necessary SDKs.
 4.  **Create a New Branch:** Before making any changes, create a new branch for your contribution:
     ```bash
     git checkout -b feature/your-feature-name
@@ -162,7 +162,7 @@ We appreciate your interest in contributing code to CoreDNS-QuickStart! Here's a
     ```bash
     git push origin feature/your-feature-name
     ```
-9.  **Create a Pull Request:** Go to the main [GitHub repository](https://github.com/Epic-Nova/Gorgeous-Core) and click the "Compare & pull request" button. Provide a clear and detailed description of your changes in the pull request. Reference any related issues.
+9.  **Create a Pull Request:** Go to the main [GitHub repository](https://github.com/Epic-Nova/CoreDNS-QuickStart) and click the "Compare & pull request" button. Provide a clear and detailed description of your changes in the pull request. Reference any related issues.
 10. **Code Review:** Your pull request will be reviewed by the project maintainers. They may provide feedback or ask for changes. Be prepared to address any comments and update your pull request accordingly.
 11. **Merging:** Once your pull request is approved, it will be merged into the main branch. Congratulations on your first contribution!
 

@@ -18,9 +18,9 @@
     <br />
     <a href="https://github.com/Epic-Nova/CoreDNS-QuickStart/blob/master/.github/FAQ.md">FAQ</a>
     &middot;
-    <a href="https://github.com/Epic-Nova/CoreDNS-QuickStart/issues/new?template=bug_report.md">Report Bug</a>
+    <a href="https://github.com/Epic-Nova/CoreDNS-QuickStart/issues/new?template=bug_report.yml">Report Bug</a>
     &middot;
-    <a href="https://github.com/Epic-Nova/CoreDNS-QuickStart/issues/new?template=feature_request.md">Request Feature</a>
+    <a href="https://github.com/Epic-Nova/CoreDNS-QuickStart/issues/new?template=feature_request.yml">Request Feature</a>
   </p>
 </div>
 
