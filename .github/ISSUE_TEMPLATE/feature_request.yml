@@ -1,0 +1,89 @@
+name: Feature Request
+description: Suggest a new feature or enhancement for CoreDNS-QuickStart
+title: "[Feature Request]: "
+labels: ["#01.1 Triage", "#11.1 Feature Request"]
+assignees:
+  - Epgenix
+body:
+  - type: markdown
+    attributes:
+      value: |
+        # 🌟 Feature Request – CoreDNS-QuickStart
+        
+        Thanks for taking the time to suggest a feature for **CoreDNS-QuickStart**!  
+        We're excited to hear your ideas on how we can make the project even more powerful. 💬
+
+  - type: textarea
+    id: feature-summary
+    attributes:
+      label: 📌 Feature Summary
+      description: What's the feature you'd like to see? Describe it in a short and clear sentence.
+      placeholder: Example - Add support for automatic DNS rebinding protection
+    validations:
+      required: true
+
+  - type: textarea
+    id: motivation
+    attributes:
+      label: 🧠 Motivation
+      description: Why is this feature important? What problem does it solve?
+      placeholder: Example - This would help protect internal networks from DNS rebinding attacks without requiring manual configuration
+    validations:
+      required: true
+
+  - type: textarea
+    id: proposed-solution
+    attributes:
+      label: 🛠️ Proposed Solution
+      description: How do you think this could be implemented?
+      placeholder: Example - Add a new plugin that validates hostnames against a list of permitted domains for a given source IP
+    validations:
+      required: false
+
+  - type: textarea
+    id: alternatives
+    attributes:
+      label: 💡 Alternative Approaches
+      description: Have you tried workarounds? Do any partial solutions exist?
+      placeholder: Example - Currently manually configuring ACLs for each domain, but it's cumbersome to maintain
+    validations:
+      required: false
+
+  - type: textarea
+    id: use-cases
+    attributes:
+      label: 🧪 Use Cases
+      description: How would this feature be used in real projects or sample scenarios?
+      placeholder: |
+        - Protecting internal networks in corporate environments
+        - Securing home networks with IoT devices
+    validations:
+      required: false
+
+  - type: textarea
+    id: additional-info
+    attributes:
+      label: 📎 Additional Info / References
+      description: Add any extra resources, screenshots, code snippets, or links to similar tools/libraries that inspired the idea
+    validations:
+      required: false
+
+  - type: input
+    id: contact
+    attributes:
+      label: 📬 Contact Info (Optional)
+      description: How can we reach you if we need more info?
+      placeholder: ex. email@example.com or @yourhandle
+    validations:
+      required: false
+
+  - type: markdown
+    attributes:
+      value: |
+        ## 🙌 _Thanks for helping improve CoreDNS-QuickStart!_
+
+        > [!NOTE]
+        > Check out our [CONTRIBUTING.md](../CONTRIBUTING.md) for info on how to get involved.
+
+        > [!WARNING]
+        > By submitting this issue, you agree to follow our [Code of Conduct](../CODE_OF_CONDUCT.md).

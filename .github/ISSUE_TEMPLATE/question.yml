@@ -1,0 +1,70 @@
+name: Question
+description: Ask a question about CoreDNS-QuickStart
+title: "[Question]: "
+labels: ["#01.1 Triage", "#07 Help Wanted"]
+assignees:
+  - Epgenix
+body:
+  - type: markdown
+    attributes:
+      value: |
+        # ❓ Question – CoreDNS-QuickStart
+
+        Thank you for reaching out with your question about **CoreDNS-QuickStart**!  
+        We're here to assist and make sure you have a smooth experience. Feel free to ask anything! 💬
+
+  - type: textarea
+    id: question-summary
+    attributes:
+      label: 📌 Question Summary
+      description: What's your question? Briefly describe the question or issue you're encountering.
+      placeholder: Example - How can I set up custom DNS zones with CoreDNS-QuickStart?
+    validations:
+      required: true
+
+  - type: textarea
+    id: context
+    attributes:
+      label: 🧠 Context
+      description: Why are you asking this question? What are you trying to achieve?
+      placeholder: Example - I'm setting up a development environment and want to know how to properly configure certificates for TLS in CoreDNS-QuickStart.
+    validations:
+      required: true
+
+  - type: textarea
+    id: attempts
+    attributes:
+      label: 🛠️ Approach / Attempts
+      description: What have you tried so far?
+      placeholder: Example - I've tried editing the Corefile and running the setup scripts but I'm still having issues with DNS resolution.
+    validations:
+      required: false
+
+  - type: textarea
+    id: additional-info
+    attributes:
+      label: 💡 Additional Information
+      description: Any extra details that could help us assist you better?
+      placeholder: Add relevant code snippets, error messages, screenshots, or any additional context that could clarify the situation.
+    validations:
+      required: false
+      
+  - type: textarea
+    id: references
+    attributes:
+      label: 📎 References
+      description: Are there any resources you've looked at or tools you're currently using?
+      placeholder: Add links, documentation, or references to similar problems you've encountered or existing solutions.
+    validations:
+      required: false
+
+  - type: markdown
+    attributes:
+      value: |
+        ## 🙌 _Thanks for helping improve CoreDNS-QuickStart!_
+
+        > [!NOTE]
+        > Check out our [CONTRIBUTING.md](../CONTRIBUTING.md) for info on how to get involved.
+
+        > [!WARNING]
+        > By submitting this issue, you agree to follow our [Code of Conduct](../CODE_OF_CONDUCT.md).

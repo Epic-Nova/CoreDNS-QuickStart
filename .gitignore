@@ -1,0 +1,95 @@
+# CoreDNS QuickStart .gitignore
+
+# Generated files and directories
+SanitizedDNS/AutoZoneGen/
+SanitizedDNS/Keys/
+SanitizedDNS/Cache/
+
+# DNSSEC keys and certificates (except examples)
+*.key
+*.key.pem
+*.private
+SanitizedDNS/Certs/*
+!SanitizedDNS/Certs/*.example.net.*
+
+# Sensitive configuration files
+.env
+*.conf.local
+*_credentials.sh
+*_secrets.yaml
+auth.json
+
+# Logs and temporary files
+*.log
+*.log.*
+*.tmp
+*.swp
+.DS_Store
+Thumbs.db
+
+# Backup files
+*.bak
+*.old
+*.backup
+*~
+*.orig
+*.archive
+SanitizedDNS/Keys/Archive/
+
+# Build and packaging
+.vscode/
+.idea/
+.project
+*.tar.gz
+*.zip
+*.deb
+*.rpm
+
+# Dependency directories
+node_modules/
+vendor/
+go.sum
+
+# Docker volumes and generated container files
+docker/volumes/
+docker-compose.override.yml
+
+# Generated systemd unit files (except templates)
+*.service
+!SanitizedDNS/Scripts/templates/*.service
+
+# Zone generation temporary files
+*.tmp.zone
+*.zone.jnl
+*.zone.signed.tmp
+
+# Operating system specific files
+.DS_Store
+.directory
+.Trash-*
+$RECYCLE.BIN/
+.Spotlight-V100
+.nfs*
+
+# Testing and local development
+test/local/
+*-test-config/
+local-config.json
+
+# Web interface development files (coming soon)
+WebInterface/node_modules/
+WebInterface/dist/
+WebInterface/.env.local
+WebInterface/coverage/
+
+# Database files
+*.db
+*.sqlite
+*.sqlite3
+dumps/
+
+# Documentation and notes (local only)
+docs/private/
+docs/draft/
+NOTES.md
+TODO.md

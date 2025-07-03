@@ -1,0 +1,67 @@
+(Base) {
+    # Basic Server Configuration
+    bind eth0
+    root /etc/coredns/
+    log
+    errors
+    reload
+    cache 300
+    loop
+    #erratic
+    minimal
+    metadata
+    nsid "com.example.coredns"
+
+ #   redis {
+ #       address 127.0.0.1:6379
+ #       password "coredns"
+ #       ttl 10
+ #       connect_timeout 200
+ #       read_timeout 200
+ #   }
+
+    # Health and Metrics
+    ready :8181
+    health :8080 {
+        lameduck 5s
+    }
+    prometheus :9153
+
+    # Security and TLS
+    tls Certs/ns1.example.net.cert.pem Certs/ns1.example.net.key.pem Certs/ns1.example.net.ca.pem {
+		client_auth require_and_verify
+	}  
+
+    # This needs to be fixed, as we can not etablish a connection to the MySQL server.
+    # Also we need to check if it is compatible with the current setup
+    #mysql {
+    #    dsn "coredns:PASSWORD@tcp(IP:3306)/coredns?charset=utf8mb3&parseTime=true&loc=Local"    
+    #}
+
+
+    # Zone Transfer (Needs to be configured properly, we don't have a slave server yet)
+    #transfer {
+    #    to yasuke.example.net:53
+    #}
+
+    # Timeouts
+    timeouts {
+        read 10s
+        write 20s
+        idle 60s
+    }
+
+     # Debugging and Special Purpose Plugins (generally at the end)
+    whoami
+    any
+    cancel
+}
+
+(After) {
+    # DNS Resolution and Forwarding
+    forward . 37.114.50.173 37.114.50.174 203.0.113.1
+    #forward . 1.1.1.1 8.8.8.8 # Forwards all queries to Cloudflare and Google DNS servers if the requested zone is not found.
+
+} 
+
+import AutoZoneGen/*.conf

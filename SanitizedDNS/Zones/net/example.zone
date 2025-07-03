@@ -1,0 +1,53 @@
+;;
+;; Domain:     example.net
+;;
+;; This is an example DNS zone file for demonstration purposes.
+;; Replace all placeholder values with your actual configuration.
+;;
+
+;; SOA Record
+@   3600    IN      SOA     ns1.example.net. admin.example.net. 2025010101 86400 3600 4000000 86400
+
+;; NS Records
+@                               86400   IN  NS  ns1.example.net.
+@                               86400   IN  NS  ns2.example.net.
+
+;; A Records
+
+;; Primary nameservers
+ns1.example.net.                86400   IN  A   192.0.2.1
+ns2.example.net.                86400   IN  A   192.0.2.2
+
+;; Web hosting server
+@                               86400   IN  A   203.0.113.1
+
+;; GitHub Pages setup (example for static sites)
+@                               604800  IN  A   192.0.2.10
+@                               604800  IN  A   192.0.2.11
+@                               604800  IN  A   192.0.2.12
+@                               604800  IN  A   192.0.2.13
+
+;; Documentation subdomain (example for project docs)
+docs.project.example.net.       604800  IN  A   192.0.2.10
+docs.project.example.net.       604800  IN  A   192.0.2.11
+docs.project.example.net.       604800  IN  A   192.0.2.12
+docs.project.example.net.       604800  IN  A   192.0.2.13
+
+;; AAAA Records (IPv6)
+
+;; GitHub Pages IPv6 setup
+@                               604800  IN  AAAA    2001:db8::10
+@                               604800  IN  AAAA    2001:db8::11
+@                               604800  IN  AAAA    2001:db8::12
+@                               604800  IN  AAAA    2001:db8::13
+
+;; Documentation subdomain IPv6
+docs.project.example.net.       604800  IN  AAAA    2001:db8::10
+docs.project.example.net.       604800  IN  AAAA    2001:db8::11
+docs.project.example.net.       604800  IN  AAAA    2001:db8::12
+docs.project.example.net.       604800  IN  AAAA    2001:db8::13
+
+;; CNAME Records
+
+;; Redirect www to the main domain
+www.example.net.                86400   IN  CNAME   example.net.

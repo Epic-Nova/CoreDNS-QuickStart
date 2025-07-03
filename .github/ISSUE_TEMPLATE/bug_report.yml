@@ -1,0 +1,87 @@
+name: Bug Report
+description: File a bug report for CoreDNS-QuickStart
+title: "[Bug]: "
+labels: ["#01.1 Triage", "#05.1 Bug Report"]
+assignees:
+  - Epgenix
+body:
+  - type: markdown
+    attributes:
+      value: |
+        # 🐞 Bug Report – CoreDNS-QuickStart
+        
+        Thanks for taking the time to report a bug in **CoreDNS-QuickStart**!  
+        Please fill out the details below so we can resolve the issue quickly.
+
+  - type: textarea
+    id: what-happened
+    attributes:
+      label: 📋 What happened?
+      description: A clear and concise description of the bug.
+      placeholder: |
+        **Expected:** What did you expect to happen?
+        **Actual:** What actually happened?
+    validations:
+      required: true
+
+  - type: textarea
+    id: steps
+    attributes:
+      label: 🔁 Steps to Reproduce
+      description: How can we reproduce the bug?
+      placeholder: |
+        1. Go to '...'
+        2. Do this '...'
+        3. Observe '...'
+    validations:
+      required: true
+
+  - type: input
+    id: version
+    attributes:
+      label: 🔧 Plugin Version
+      description: What version of CoreDNS-QuickStart are you using?
+      placeholder: ex. 1.1.0-dev or commit SHA
+    validations:
+      required: true
+
+  - type: textarea
+    id: environment
+    attributes:
+      label: 🖥️ Environment
+      description: Details about your operating system and setup
+      placeholder: |
+        - CoreDNS Version: ex. 1.11.1
+        - Operating System: ex. Ubuntu 22.04
+        - Docker Version: ex. 24.0.6
+    validations:
+      required: true
+
+  - type: textarea
+    id: logs
+    attributes:
+      label: 🧾 Log Output
+      description: Paste any relevant logs, callstacks, or output here
+      render: shell
+    validations:
+      required: false
+
+  - type: input
+    id: contact
+    attributes:
+      label: 📬 Contact Info (Optional)
+      description: How can we reach you if we need more details?
+      placeholder: ex. email@example.com or @yourhandle
+    validations:
+      required: false
+
+  - type: markdown
+    attributes:
+      value: |
+        ## 🙌 _Thanks for helping improve CoreDNS-QuickStart!_
+
+        > [!NOTE]
+        > Check out our [CONTRIBUTING.md](../CONTRIBUTING.md) for info on how to get involved.
+
+        > [!WARNING]
+        > By submitting this issue, you agree to follow our [Code of Conduct](../CODE_OF_CONDUCT.md).

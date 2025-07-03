@@ -1,0 +1,11 @@
+blank_issues_enabled: false
+contact_links:
+  - name: CoreDNS-QuickStart FAQ
+    url: https://github.com/Epic-Nova/CoreDNS-QuickStart/blob/master/.github/FAQ.md
+    about: Check if your question is already answered in our FAQ
+  - name: CoreDNS Documentation
+    url: https://coredns.io/manual/toc/
+    about: The official CoreDNS documentation might have answers to your questions
+  - name: CoreDNS GitHub Repository
+    url: https://github.com/coredns/coredns
+    about: For issues related to CoreDNS itself rather than this QuickStart tool
